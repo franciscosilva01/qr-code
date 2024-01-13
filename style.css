@@ -24,12 +24,11 @@ body {
 
 .container:hover{
   box-shadow: 0px 5px 15px rgba(4, 8, 250, 0.568);
-  
 }
 
 .qr-code {
   border-radius: 40px;
-  width: 400px;
+  width:100%;
   margin: 0 auto;
   background: center no-repeat;
   background-size: cover;
@@ -41,7 +40,7 @@ body {
   padding: 4px 6px;
   text-align: center;
   line-height: 35px;
-  font-weight: 700;
+  font-weight: 700, 400;
   cursor: context-menu;
 }
 
@@ -49,4 +48,11 @@ body {
   text-align: center;
   font-weight: 400;
   color: gray;
+
+}@media (max-width: 500px) {
+  .container{
+      width: 75%;
+  }
 }
+
+
